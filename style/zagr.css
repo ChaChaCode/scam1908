@@ -1,0 +1,26 @@
+
+.main {
+  gap: var(--gap-xl);
+  position: fixed;
+  bottom: 0; /* Фиксация к нижнему краю экрана */
+}
+
+.main {
+  align-items: center; /* Добавлено, чтобы центрировать элементы по горизонтали */
+  width: 100%;
+  min-height: 100vh; /* Высота 100% от высоты экрана */
+  position: relative;
+  background: linear-gradient(-0.32deg, #1c1d26, #282d3f);
+  background-size: cover; /* Фон покрывает всю область элемента */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+.svetlechki{
+  z-index: 10;
+}
